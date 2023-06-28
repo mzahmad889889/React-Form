@@ -7,7 +7,7 @@ function Form() {
   return (
     <div className='container'>
       <h1>Contact us</h1>
-      <form onSubmit={handleSubmit}>
+      <form>
         <div>
         <label htmlFor="firstName">Name</label>
                 <input
